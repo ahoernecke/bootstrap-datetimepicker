@@ -71,10 +71,10 @@
         },
 
 		icons = {
-		    time: 'glyphicon glyphicon-time',
-		    date: 'glyphicon glyphicon-calendar',
-		    up: 'glyphicon glyphicon-chevron-up',
-		    down: 'glyphicon glyphicon-chevron-down'
+		    time: 'fa fa-clock',
+		    date: 'fa fa-calendar',
+		    up: 'fa fa-arrow-up',
+		    down: 'fa fa-arrow-down'
 		},
 
         picker = this,
