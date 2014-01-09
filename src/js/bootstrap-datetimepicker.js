@@ -73,14 +73,14 @@
                   this.upIcon = icon.data('up-icon');
                   this.downIcon = icon.data('down-icon');
                 }
-                if (!this.timeIcon) this.timeIcon = 'glyphicon glyphicon-time';
-                if (!this.upIcon) this.upIcon = 'glyphicon glyphicon-chevron-up';
-                if (!this.downIcon) this.downIcon = 'glyphicon glyphicon-chevron-down';
+                if (!this.timeIcon) this.timeIcon = 'fa fa-clock-o';
+                if (!this.upIcon) this.upIcon = 'fa fa-arrow-up';
+                if (!this.downIcon) this.downIcon = 'fa fa-arrow-down';
                 icon.addClass(this.timeIcon);
             }
             if (this.pickDate) {
                 if (icon && icon.length) this.dateIcon = icon.data('date-icon');
-                if (!this.dateIcon) this.dateIcon = 'glyphicon glyphicon-calendar';
+                if (!this.dateIcon) this.dateIcon = 'fa fa-calendar';
                 icon.removeClass(this.timeIcon);
                 icon.addClass(this.dateIcon);
             }
